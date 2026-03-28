@@ -26,7 +26,7 @@ project-folder/
 ---
 
  🌐 Live Demo
-
+ https://kanishkagopiramanan-ai.github.io/Hospital-Management-Website/
 
 ---
 
