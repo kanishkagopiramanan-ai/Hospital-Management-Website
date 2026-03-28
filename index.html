@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Hospital Management System</h1>
+    <h2>Appointment Booking Form</h2>
+
+    <div class="container">
+        <!-- Form Section -->
+        <div class="form-container">
+            <form onsubmit="bookAppointment(); return false;">
+                <label>Patient Name:</label><br>
+                <input type="text" name="patient" required><br><br>
+
+                <label>Doctor Name:</label><br>
+                <input type="text" name="doctor" required><br><br>
+
+                <label>Appointment Date:</label><br>
+                <input type="date" name="date" required><br><br>
+
+                <label>Appointment Time:</label><br>
+                <input type="time" name="time" required><br><br>
+
+                <input type="submit" value="Book Appointment">
+            </form>
+        </div>
+
+        <!-- Display Section -->
+        <div class="display-container">
+            <h3>Booked Appointments:</h3>
+            <div id="appointmentDisplay"></div>
+
+            <h3>Appointment Receipt:</h3>
+            <div id="appointmentReceipt"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
